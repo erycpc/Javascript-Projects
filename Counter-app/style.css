@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#count {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-row {
+    display: flex;
+    gap: 10px;
+}
+
+#incrementBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+#decrementBtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
